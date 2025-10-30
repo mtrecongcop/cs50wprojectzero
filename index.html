@@ -2,11 +2,49 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <style>
+            #links {
+                float: right;
+                margin: 5px;
+            }
+
+
+            #form, #logo {
+                position:relative;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                padding-top: 20px;
+                top: 100px;
+                width: 100%;
+            }
+
+            #container > div {
+                font-size: 20px;
+                margin: 20px;
+                padding: 20px;
+            }
+        </style>
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div id="links">
+            <a href="image.html", class="links">Image Search</a>
+            <a href="advanced.html", class="links">Advanced Search</a>
+        </div>
+        <div id="logo">
+            <h1>MyGoogle</h1>
+        </div>
+        <div id="form">
+            <form action="https://www.google.com/search" style="text-align: center;">
+                <div>
+                    <input type="text" name="q" style="width: 500px; border-radius: 10px; height: 24px;">
+                    <div style="position: relative;">
+                        <input type="submit" value="Search">
+                        <input type="submit" value="I'm feeling luckless">
+                    </div>
+                </div>
+            </form> 
+        </div>
     </body>
 </html>
