@@ -7,8 +7,8 @@ body {
     position: absolute;
     display: flex;
     align-items: flex-end;
-    top: 0px;
-    right: 0px; 
+    right: 0px;
+    margin: 5px;
 }
 
 #top > div {
@@ -32,7 +32,6 @@ body {
     font-family: sans-serif;
     color: #FFB3A7;
     top: 40px;
-    width: 100%;
     font-size: 20px;
     padding: 40px;
     padding-left: 35px;
@@ -46,7 +45,6 @@ body {
     font-family: sans-serif;
     color: white;
     top: 40px;
-    width: 100%;
     font-size: 18px;
     padding: 25px;
     padding-left: 35px;
@@ -61,7 +59,6 @@ body {
     font-size: 15px;
     padding: 25px;
     padding-left: 35px;
-    width: 100%;
 }
 
 #advancedformcontents > #content {
@@ -72,15 +69,19 @@ body {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
-    width: 1000px;
+    width: 700px;
 }
 
 #content > div {
-    width: 900px;
+    width: 700px;
+}
+
+#content-note {
+    width: 200px;
 }
 
 #content-textbox{
-    width: 800px;
+    width: 500px;
 }
 
 #advanced-search-button{
@@ -103,7 +104,6 @@ body {
     padding: 10px;
     margin: 10px;
     top: 120px;
-    width: 100%;
 }
 
 #logo > div {
