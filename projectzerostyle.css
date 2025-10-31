@@ -1,0 +1,44 @@
+#top {
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    margin: 5px;
+    top: 0px;
+    right: 0px;     
+}
+
+#top > div {
+    padding: 5px;
+    font-family: sans-serif;
+}
+#form, #logo {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    top: 120px;
+    width: 100%;
+}
+
+#logo > div {
+    font-size: 100px;
+    font-family: sans-serif;
+}
+
+#button {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+#button > div {
+    padding: 20px;
+    border-radius: 10px;
+    transform: scale(1.2);
+}
