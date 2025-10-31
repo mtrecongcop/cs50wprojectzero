@@ -3,46 +3,65 @@
     <head>
         <title>Search</title>
         <style>
-            #links {
+            #top {
+                display: flex;
+                align-items: flex-end;
                 float: right;
-                margin: 5px;
+                margin: 5px;     
             }
 
+            #top > div {
+                padding: 5px;
+                font-family: sans-serif;
+            }
             #form, #logo {
-                position:relative;
+                position: relative;
                 display: flex;
                 flex-wrap: wrap;
                 align-items: center;
                 justify-content: center;
-                padding-top: 20px;
+                padding: 10px;
+                margin: 10px;
                 top: 100px;
                 width: 100%;
             }
 
-            #container > div {
-                font-size: 20px;
-                margin: 20px;
-                padding: 20px;
+            #logo > div {
+                font-size: 100px;
+                font-family: sans-serif;
             }
-            
+
+            #button {
+                position: relative;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                padding: 5px;
+            }
+
+            #button > div {
+                padding: 20px;
+                border-radius: 10px;
+                transform: scale(1.2);
+            }
+
         </style>
     </head>
     <body>
-        <div id="links">
-            <a href="image.html", class="links">Image Search</a>
-            <a href="advanced.html", class="links">Advanced Search</a>
+        <div id="top">
+            <div><a href="image.html", class="links">Image Search</a></div>
+            <div><a href="advanced.html", class="links">Advanced Search</a></div>
         </div>
         <div id="logo">
-            <h1>MyGoogle</h1>
+            <div>MyGoogle</div>
         </div>
         <div id="form">
-            <form action="https://www.google.com/search" style="text-align: center;">
-                <div>
-                    <input type="text" name="q" style="width: 500px; border-radius: 10px; height: 24px;">
-                    <div style="position: relative;">
-                        <input type="submit" value="Search">
-                        <input type="submit" value="I'm feeling reckless">
-                    </div>
+            <form action="https://www.google.com/search" style="text-align: center;">           
+                <input type="text" name="q" style="width: 500px; border-radius: 10px; height: 30px;">
+                <div style="position: relative;" id="button">
+                    <div><input type="submit" value="Search" ></div>
+                    <div><input type="submit" value="I'm feeling reckless"></div>
                 </div>
             </form> 
         </div>
