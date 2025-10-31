@@ -84,6 +84,12 @@ body {
     width: 500px;
 }
 
+#big-searchbox {
+    width: 500px; 
+    border-radius: 10px; 
+    height: 30px;
+}
+
 #advanced-search-button{
     width: 150px;
     background-color: #4285F4;
