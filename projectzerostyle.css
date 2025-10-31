@@ -1,16 +1,27 @@
+body {
+    background-color: #121212;
+    color: white
+}
+
 #top {
     position: absolute;
     display: flex;
     align-items: flex-end;
     margin: 5px;
     top: 0px;
-    right: 0px;     
+    right: 0px; 
 }
 
 #top > div {
     padding: 5px;
     font-family: sans-serif;
 }
+
+.links{
+    color: white;
+    text-decoration: none;
+}
+
 #form, #logo {
     position: relative;
     display: flex;
